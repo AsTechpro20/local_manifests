@@ -4,7 +4,7 @@
 <!-- Remotes -->
   <remote  name="mi-thorium" fetch="https://github.com/Mi-Thorium" revision="a14/master" />
   
-  <remote  name="astechpro20" fetch="https://github.com/AsTechpro20" revision="a14/master" />
+  <remote  name="astechpro20" fetch="https://github.com/AsTechpro20" revision="a11/master" />
   
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="astechpro20"/>
