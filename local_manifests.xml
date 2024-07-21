@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Remotes -->
-  <remote  name="mi-thorium" fetch="https://github.com/Mi-Thorium" revision="a14/master" />
-  
-  <remote  name="astechpro20" fetch="https://github.com/AsTechpro20" revision="a14/master" />
+  <!-- Remotes -->
+  <remote  name="mi-thorium"
+           fetch="https://github.com/Mi-Thorium"
+           revision="a14/master" />
+  <remote  name="astechpro20"
+           fetch="https://github.com/AsTechpro20"
+           revision="a14/master" />
   
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="astechpro20"/>
@@ -84,5 +87,4 @@
   <project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
-  
 </manifest>
