@@ -20,4 +20,7 @@
 <!-- Kernel -->
   <project path="kernel/xiaomi/Mi439" name="android_kernel_xiaomi_sdm439" remote="astechpro20"/>
   
+<!-- Others -->
+<project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" remote="mi-thorium" revision="a11/master"/>
+  
 </manifest>
