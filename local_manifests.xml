@@ -18,7 +18,8 @@
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" remote="mi-thorium"/>
-
+  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" remote="mi-thorium" revision="a11/master"/>
+  
 <!-- Kernel -->
  <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/master" remote="mi-thorium" >
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
@@ -27,16 +28,10 @@
   <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="astechpro20" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/vendor-legacy" />
   </project>
-  <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-msm8937" name="kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="mi-thorium" >
-    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/xiaomi-msm8937" />
-  </project>
   <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-sdm439" name="kernel_devicetree_xiaomi-sdm439" groups="dts" revision="dts/mi439/4.19/master" remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/xiaomi-sdm439" />
   </project>
-
-  <project path="kernel/xiaomi/mithorium-4.19/module/xiaomi-msm8937" name="kernel_techpack_xiaomi-msm8937" groups="module" revision="techpack/mi8937/4.19/master" remote="mi-thorium" >
-    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/xiaomi-msm8937" />
-  </project>
+  
   <project path="kernel/xiaomi/mithorium-4.19/module/xiaomi-sdm439" name="kernel_techpack_xiaomi-sdm439" groups="module" revision="techpack/mi439/4.19/master" remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/xiaomi-sdm439" />
   </project>
@@ -55,7 +50,4 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
 
-<!-- Others -->
-  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" remote="mi-thorium" revision="a11/master"/>
-  
 </manifest>
