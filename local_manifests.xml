@@ -9,6 +9,9 @@
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
            revision="a14/master" />
+    <remote  name="astechpro20"
+           fetch="https://github.com/AsTechpro20"
+           revision="a14/master" />
   
   <!--
   <remote  name="github"
@@ -51,7 +54,7 @@
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0"/>
 
  <!-- Mi439 -->
-  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="Gtajisan" revision="a14/projectblaze"/>
+  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="astechpro20"/>
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium"/>
 
  <!-- Mi439 - Kernel 4.19 -->
