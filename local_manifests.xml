@@ -93,4 +93,10 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
 
+<!-- Derp prebuilts -->
+<project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
+  
+<!-- v4x -->
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
+
 </manifest>
